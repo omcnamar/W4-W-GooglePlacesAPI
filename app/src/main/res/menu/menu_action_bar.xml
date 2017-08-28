@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_restaurants"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom|withText"
+        android:title="restaurants"/>
+
+    <item
+        android:id="@+id/action_atm"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom|withText"
+        android:title="ATM"/>
+
+    <item
+        android:id="@+id/action_hospital"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom|withText"
+        android:title="Hospitals"/>
+
+    <item
+        android:id="@+id/action_stores"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom|withText"
+        android:title="Stores"/>
+
+</menu>
